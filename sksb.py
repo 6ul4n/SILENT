@@ -626,7 +626,7 @@ def clientBot(op):
                 client.sendContact(op.param1, op.param2)
                 client.sendImageWithURL(op.param1, "http://dl.profile.line-cdn.net{}".format(dan.picturePath))
 
-        if op.type == 26:
+        if op.type in [25,26]:
             print ("[ 25 ] SEND MESSAGE")
             msg = op.message
             text = msg.text
