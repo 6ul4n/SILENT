@@ -765,7 +765,7 @@ def clientBot(op):
                             if text.lower() == audio:
                                client.sendAudio(msg.to, audios[audio])
                          for video in videos:
-                          if msg._from in lineMID:
+                          if msg._from in clientMid:
                             if text.lower() == video:
                                client.sendVideo(msg.to, videos[video])
 
