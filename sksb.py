@@ -15,7 +15,7 @@ import time, random, multiprocessing, sys, json, codecs, threading, glob, re, st
 from gtts import gTTS
 from googletrans import Translator
 
-client = LINE("EyquGHUvIWzAXhHcT8s1.tJhx4qV+KZkrLDqq41Rwqq.yb9jK+asuGxWKnUE3KZBT+VXag1qDhfM62KzBiCOS+o=")
+client = LINE("EynFXbPgNLSr9huJXF4b.VHH0q0Dhr8pSns5/+RsmgW.znIb9D1LUg7Ficka1MgpFhPIOk2jzMIRJrWTsYXTrEs=")
 clientMid = client.profile.mid
 clientProfile = client.getProfile()
 clientSettings = client.getSettings()
@@ -34,7 +34,7 @@ settings = {
     "autoRespon": False,
     "welcome": False,
     "leave": False,
-    "Respontag":"senggol bacok ????",
+    "Respontag":"kangen lu",
     "stickerOn": False,
     "autoJoinTicket": False,
     "checkContact": False,
@@ -626,7 +626,7 @@ def clientBot(op):
                 client.sendContact(op.param1, op.param2)
                 client.sendImageWithURL(op.param1, "http://dl.profile.line-cdn.net{}".format(dan.picturePath))
 
-        if op.type == 25:
+        if op.type == 26:
             print ("[ 25 ] SEND MESSAGE")
             msg = op.message
             text = msg.text
@@ -938,7 +938,7 @@ def clientBot(op):
 #=====================================================================================================================================
 #=====================================================================================================================================
                             elif cmd == "cs":
-                                client.sendContact(to, "u1f41296217e740650e0448b96851a3e2',")
+                                client.sendContact(to, "ube187443474747c3ec352e7efeb48c1b',")
                             elif cmd.startswith("changename:"):
                                 sep = text.split(" ")
                                 string = text.replace(sep[0] + " ","")
