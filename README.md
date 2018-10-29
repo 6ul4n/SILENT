@@ -20,7 +20,7 @@ C9 SERVER/ VPS :
 - `sudo pip3 install youtube_dl`
 - `git clone https://github.com/6ul4n/silent`
 - `cd silent`
-- `python3 kicker.py`
+- `python3 bot5.py`
 
 INSTALL Di TERMUX :
 - `pkg update`
@@ -41,14 +41,14 @@ INSTALL Di TERMUX :
 - `pip3 install tweepy`
 - `git clone https://github.com/6ul4n/silent`
 - `cd silent`
-- `python3 kicker.py`
+- `python3 bot5.py`
 
 Cara Menjalankan Bot Kembali :
 ------
 Di C9 :
 - `cd silent`
-- `python3 kicker.py`
+- `python3 bot5.py`
 
 Di Termux :
 - `cd silent`
-- `python3 kicker.py`
+- `python3 bot5.py`
