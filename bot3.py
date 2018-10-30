@@ -722,6 +722,10 @@ def helpbot():
     num = (num+1)
     helpMessage2 += "║%i. " % num + key + "Clearban\n"
     num = (num+1)
+    helpMessage2 += "║%i. " % num + key + "Masuk\n"
+    num = (num+1)
+    helpMessage2 += "║%i. " % num + key + "Pulang\n"
+    num = (num+1)
     helpMessage2 += "║%i. " % num + key + "Allpro on/off\n"
     num = (num+1)
     helpMessage2 += "║%i. " % num + key + "Skurl on/off\n"
