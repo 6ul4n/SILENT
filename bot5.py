@@ -481,6 +481,7 @@ def help():
                   "╠✪➣ " + key + "Js「on」\n" + \
                   "╠✪➣ " + key + "Js stay\n" + \
                   "╠✪➣ " + key + "Protectantijs「on/off」\n" + \
+                  "╠✪➣ " + key + "Ghost join\n" + \
                   "╠✪➣ " + key + "Ghost bye\n" + \
                   "╠✪➣ " + key + "Ghost「on/off」\n" + \
                   "╠✪➣ " + key + "Kicker in\n" + \
