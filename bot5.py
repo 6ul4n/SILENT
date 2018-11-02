@@ -478,7 +478,6 @@ def help():
                   "╠✪➣ " + key + "Protectkick「on/off」\n" + \
                   "╠✪➣ " + key + "Protectinvite「on/off」\n" + \
                   "╠✪➣ " + key + "Protectcancel「on/off」\n" + \
-                  "╠✪➣ " + key + "Js「on」\n" + \
                   "╠✪➣ " + key + "Js stay\n" + \
                   "╠✪➣ " + key + "Protectantijs「on/off」\n" + \
                   "╠✪➣ " + key + "Ghost join\n" + \
@@ -1727,7 +1726,7 @@ def bot(op):
                                helpMessage1 = helpbot()
                                cl.sendMessage(msg.to, str(helpMessage1))
 
-                        elif cmd == "kicker status":
+                        elif cmd == "status":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
@@ -2447,7 +2446,7 @@ def bot(op):
                                 except:
                                     pass
                                     
-                        elif cmd == "kicker stay":
+                        elif cmd == "js stay":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 try:
@@ -2569,7 +2568,7 @@ def bot(op):
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
-                                G.preventedJoinByTicket = True
+                                G.preventedJoinByTicket = False
                                 cl.updateGroup(G)
                                 invsend = 0
                                 Ticket = cl.reissueGroupTicket(msg.to)
